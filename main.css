@@ -1,0 +1,229 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+.container{
+    display:block;
+    width: 350px;
+    height: auto;
+    margin: 50px auto;
+    border: solid 2px;
+    border-radius: 20px;
+    
+    
+}
+.header{
+    text-align: center;
+    background-color: rgb(102,104,92,0.6);
+    opacity: 0.9;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+
+}
+h4{
+    display: inline-block;
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 0;
+    color: white;
+}
+#author{
+    margin-top: 0;
+    color: white;
+}
+
+.avatar{
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    border-radius: 100%;
+    background-image: url(anhs/thucuoi.jpg);
+    
+}
+
+input{
+    display: inline-block;
+    margin-top: 20px ;
+    margin-bottom: 10px;
+    width: 90%;
+    height: 8px;
+    
+}
+
+
+
+  
+.div{
+    background-color: rgb(102,104,92,0.6);
+    opacity: 0.9;
+
+}
+
+.bttn.active{
+    
+    text-align: center;
+    background-color: rgb(110,110,110);
+    opacity: 0.9;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-radius: 15px;
+}
+.fa-solid.fa-arrow-left{
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+    border-radius: 100%;
+    background-color: rgb(56,176,0);
+    cursor: pointer;
+    
+}
+.fa-solid.fa-arrow-left:active{
+    opacity: 0.5;
+}
+.fa-solid.fa-play{
+    border-radius: 100%;
+    background-color: rgb(56,176,0);
+    padding: 20px;
+    color: white;
+    cursor: pointer;
+}
+.fa-solid.fa-play:active{
+    opacity: 0.5;
+}
+.fa-solid.fa-pause{
+    border-radius: 100%;
+    background-color: rgb(56,176,0);
+    padding: 20px;
+    color: white;
+    cursor: pointer;
+    width: 12px;
+}
+.fa-solid.fa-pause:active{
+    opacity: 0.5;
+}
+.fa-solid.fa-arrow-right{
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+    border-radius: 100%;
+    color: white;
+    background-color: rgb(56,176,0);
+    cursor: pointer;
+}
+/* .fa-solid.fa-arrow-right:hover{
+    opacity: 0.8;
+} */
+.fa-solid.fa-arrow-right:active{
+    opacity: 0.5;
+}
+
+.listRender{
+    display: block;
+    height: 200px;
+    overflow-y: auto;
+    background-color: rgb(102,104,92,0.6); 
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    opacity: 0.9;
+
+    
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+#duration{
+    -webkit-appearance: none;
+    appearance: none;
+    height: 1.5px;
+    border-radius: 5px;
+    /* background: linear-gradient(90deg,rgb(56,176,0) 60% ,white 60%) ; */
+    outline: none;
+}
+#duration::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 7px;
+    height: 7px;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.card{
+    height: 50px;
+    display: grid; 
+    grid-template-columns: 15px 50px 220px 50px 15px;
+    grid-template-rows: 50px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    background-color:rgb(110,110,110,0.6);
+    border-radius:15px;
+    
+    
+}
+.card.active{
+    background-color: rgb(56,176,0) ;
+    opacity: 0.9;
+}
+
+
+.smallA{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    height: 50px;
+    border-radius: 100%;
+
+}
+.fa-solid.fa-play.none{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    background-color:rgb(110,110,110,0);
+    padding: 10px;
+    margin: 10px;
+}
+
+.fa-solid.fa-pause.none{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    background-color:rgb(56,176,0);
+    padding: 10px;
+    margin: 10px;
+}
+.fa-solid.fa-repeat{
+    color: white;
+    cursor: pointer;
+}
+.fa-solid.fa-repeat:hover{
+    opacity: 0.7;
+}
+
+.fa-solid.fa-repeat.active{
+    color: rgb(56,176,0);
+}
+
+.fa-solid.fa-shuffle{
+    color: white;
+    cursor: pointer;
+}
+.fa-solid.fa-shuffle:hover{
+    opacity: 0.7;
+}
+.fa-solid.fa-shuffle.active{
+    color: rgb(56,176,0);
+}
+
+.infor{
+    padding: 10px;
+    margin-left: 20px;
+    
+}
+h5{
+    margin: 0;
+}
+#smallN{
+    margin: 0;
+}
+
+
